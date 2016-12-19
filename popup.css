@@ -1,0 +1,34 @@
+#yan_shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 500px;
+	width: 100%;
+	background-color: #000;
+	opacity: .7;
+	z-index: 100;
+}
+#yan_popup {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	-webkit-transform:translate(-50%);
+	-moz- transform:translate(-50%);
+	transform:translate(-50%);
+	z-index: 101;
+	width: 500px;
+	background: #fff;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+}
+
+#yan_popup h3 {
+	text-align: center;
+}
+#yan_popup div.buttons {
+	text-align: center;
+	padding: 10px 0 20px 0;
+}
+#yan_popup button {
+	margin-right: 20px;
+}
